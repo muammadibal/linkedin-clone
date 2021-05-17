@@ -1,0 +1,123 @@
+[debug] [2021-05-17T15:48:08.811Z] ----------------------------------------------------------------------
+[debug] [2021-05-17T15:48:08.817Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Me\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-17T15:48:08.818Z] CLI Version:   9.10.2
+[debug] [2021-05-17T15:48:08.818Z] Platform:      win32
+[debug] [2021-05-17T15:48:08.818Z] Node Version:  v15.7.0
+[debug] [2021-05-17T15:48:08.820Z] Time:          Mon May 17 2021 22:48:08 GMT+0700 (Western Indonesia Time)
+[debug] [2021-05-17T15:48:08.820Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-17T15:48:08.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-17T15:48:08.837Z] > authorizing via signed-in user (muammadibal@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\project\rjs\linkedin-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-17T15:48:40.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-05-17T15:48:40.996Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-05-17T15:48:40.996Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project linkedin-clone-b8ce3 (linkedin-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-05-17T15:50:55.684Z] ----------------------------------------------------------------------
+[debug] [2021-05-17T15:50:55.689Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Me\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-17T15:50:55.691Z] CLI Version:   9.10.2
+[debug] [2021-05-17T15:50:55.691Z] Platform:      win32
+[debug] [2021-05-17T15:50:55.691Z] Node Version:  v15.7.0
+[debug] [2021-05-17T15:50:55.694Z] Time:          Mon May 17 2021 22:50:55 GMT+0700 (Western Indonesia Time)
+[debug] [2021-05-17T15:50:55.694Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-17T15:50:55.710Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-17T15:50:55.710Z] > authorizing via signed-in user (muammadibal@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\project\rjs\linkedin-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-05-17T15:51:07.369Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-05-17T15:51:08.357Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-05-17T15:51:08.357Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project linkedin-clone-b8ce3 (linkedin-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-05-17T15:51:56.058Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-05-17T15:51:56.321Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-05-17T15:51:56.322Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.6.1","browserURL":"https://www.gstatic.com/firebasejs/8.6.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.6.1/firebase.tgz"},"live":{"version":"8.6","browserURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.6.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.6.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.6.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.6.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.6.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at E:\project\rjs\linkedin-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=257756029&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-05-17T15:52:29.120Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"c387dd2db7ac665f7430","redirect_uri":"http://localhost:9005","state":"257756029"}
+[debug] [2021-05-17T15:52:29.805Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 17 May 2021 15:52:28 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"f5d16169bb05c126e48f41a6daf4d3fc\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"CD35:48C9:80CB74:9560DD:60A2913C"}
+[debug] [2021-05-17T15:52:29.823Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-05-17T15:52:30.325Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-05-17T15:52:30.326Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"muammadibal","id":12495962,"node_id":"MDQ6VXNlcjEyNDk1OTYy","avatar_url":"https://avatars.githubusercontent.com/u/12495962?v=4","gravatar_id":"","url":"https://api.github.com/users/muammadibal","html_url":"https://github.com/muammadibal","followers_url":"https://api.github.com/users/muammadibal/followers","following_url":"https://api.github.com/users/muammadibal/following{/other_user}","gists_url":"https://api.github.com/users/muammadibal/gists{/gist_id}","starred_url":"https://api.github.com/users/muammadibal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/muammadibal/subscriptions","organizations_url":"https://api.github.com/users/muammadibal/orgs","repos_url":"https://api.github.com/users/muammadibal/repos","events_url":"https://api.github.com/users/muammadibal/events{/privacy}","received_events_url":"https://api.github.com/users/muammadibal/received_events","type":"User","site_admin":false,"name":"ibal","company":null,"blog":"","location":null,"email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":0,"followers":0,"following":0,"created_at":"2015-05-18T12:17:31Z","updated_at":"2021-05-17T15:52:27Z","private_gists":0,"total_private_repos":12,"owned_private_repos":12,"disk_usage":78481,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as muammadibal 
+[info] 
+[debug] [2021-05-17T15:52:57.454Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-05-17T15:52:57.961Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-05-17T15:52:57.961Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-05-17T15:53:07.492Z] ----------------------------------------------------------------------
+[debug] [2021-05-17T15:53:07.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Me\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-17T15:53:07.498Z] CLI Version:   9.10.2
+[debug] [2021-05-17T15:53:07.498Z] Platform:      win32
+[debug] [2021-05-17T15:53:07.499Z] Node Version:  v15.7.0
+[debug] [2021-05-17T15:53:07.501Z] Time:          Mon May 17 2021 22:53:07 GMT+0700 (Western Indonesia Time)
+[debug] [2021-05-17T15:53:07.501Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-17T15:53:07.515Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-17T15:53:07.516Z] > authorizing via signed-in user (muammadibal@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\project\rjs\linkedin-clone
+
